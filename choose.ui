@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>998</width>
+    <height>385</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 44, 75);</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>971</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+font: italic 22pt &quot;Monotype Corsiva&quot;;
+font: 87 italic 30pt &quot;Segoe UI Black&quot;;
+background-color: rgb(255, 44, 75);</string>
+   </property>
+   <property name="text">
+    <string>   MATHS &amp; ARITHMETIC DICTIONARY</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>130</y>
+     <width>691</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(170, 0, 0);
+background-color: rgb(255, 255, 255);
+font: 75 26pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>   Choose a Dictionary from below..</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="maths">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>210</y>
+     <width>291</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20pt &quot;Lucida Sans Unicode&quot;;
+
+color: rgb(0, 0, 0);
+background-color: rgb(255, 170, 127);</string>
+   </property>
+   <property name="text">
+    <string>Maths Dictionary</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="englishButton">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>210</y>
+     <width>301</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20pt &quot;Lucida Sans Unicode&quot;;
+
+color: rgb(0, 0, 0);
+background-color: rgb(255, 170, 127);</string>
+   </property>
+   <property name="text">
+    <string>English Dictionary</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
